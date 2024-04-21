@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "fraunces";
+    src: url(fraunces/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}   
+@font-face {
+    font-family: "montserrat" ;
+    src: url(montserrat/Montserrat-VariableFont_wght.ttf);
+} 
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --DarkGrayishBlue: hsl(228, 12%, 48%);
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --DarkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --font-h: "fraunces", sans-serif;
+    --font-p: "montserrat", sans-serif;
+}
+
+ body{
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(30, 38%, 92%);
+    font-family: var(--font-p);
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+  }
+  
+  .card{
+    width: 640px;
+    height: 500px; 
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .text{
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    text-align: left;
+    padding: 20px 45px;
+  }
+
+  .text p{
+    font-size: 14px;
+    color: var(--DarkGrayishBlue);  
+  }
+
+  h1{
+    font-family: var(--font-h);
+    color: var(--VeryDarkBlue);
+  }
+
+  #description {
+    line-height: 25px;
+  }
+
+  #price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--DarkCyan);
+  }
+
+  #price p{
+    margin-left: 20px;
+    color: var(--DarkGrayishBlue);
+  }
+
+  #price h1{
+    color: var(--DarkCyan);
+  }
+
+  #button{
+    background-color: var(--DarkCyan);
+    border-radius: 7px;
+    margin-top: 12px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  #button p{
+    margin: 10px;
+    color: var(--white);
+  }
+
+  #button:hover{
+    background-color: hsl(157, 35%, 28%);
+    cursor:pointer;
+  }
+
+  .image img{
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  @media screen and (max-width: 700px){
+
+    .card{
+      width: 334px;
+      padding: 25px;
+
+      flex-direction: column-reverse;
+      height: fit-content;
+
+    }
+
+    .text{
+      padding: 10px 20px;
+      border-radius: 0px 0px 10px 10px;
+
+    }
+
+    .text h1{
+      margin: 10px 0px;
+    }
+
+    .text p{
+      margin-right: 7px;
+    }
+
+    .image{
+      height: 240px;
+    }
+
+    .image img{
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    #perfume{
+      margin: 10px 0px;
+    }
+
+    #button{
+      margin: 3px 3px 6px;
+    }
+  }

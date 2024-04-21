@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+<div class="card">
+  
+    <div class="text">
+      <p style="letter-spacing: 5px;" id="perfume">PERFUME</p>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p id="description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+
+      <div id="price">
+        <h1>$149.99</h1>
+        <p><s>$169.99</s></p>
+      </div>
+
+      <div id="button">
+        <p>Add to Cart</p>
+        <img src="images/icon-cart.svg" alt="Carrinho de compras">
+      </div>
+
+    </div>
+
+    <div class="image">
+      <picture>
+        <source media="(max-width: 700px)" srcset="images/image-product-mobile.jpg" height="240px" width="334px">
+        <img src="images/image-product-desktop.jpg" alt="Perfume Gabriell Essence Eau de Parfum" height="500px" width="320px">
+      </picture>
+    </div>
+  
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ohana-yoshikawa" target="_blank">Ohana Yoshikawa</a>.
+  </div>
+  
+</body>
+</html>
