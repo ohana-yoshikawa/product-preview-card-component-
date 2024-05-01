@@ -22,7 +22,7 @@ Construção de Site Responsivo
 
 #### Desktop Design
 
-![](./versao-desktop.png)
+![](./desktop-design-print.png)
 
 #### Mobile Design
 
@@ -30,7 +30,7 @@ Construção de Site Responsivo
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://662568b4039ffbeda885648c--elaborate-churros-f9a474.netlify.app/)
+- Live Site URL: (https://662568b4039ffbeda885648c--elaborate-churros-f9a474.netlify.app/)
 
 ## My process
 
